@@ -1,0 +1,299 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-09T22:46:07.786Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1739000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Default page number",
+        "description": "",
+        "id": "contacts-page;default-page-number",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\n\tat com.vytrack.utilities.ConfigurationReader.get(ConfigurationReader.java:29)\n\tat com.vytrack.utilities.Driver.get(Driver.java:26)\n\tat com.vytrack.step_definitions.Hooks.tearDown(Hooks.java:19)\n",
+              "duration": 4630000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\n\tat com.vytrack.utilities.ConfigurationReader.get(ConfigurationReader.java:29)\n\tat com.vytrack.step_definitions.LoginStepDefs.the_user_is_on_the_login_page(LoginStepDefs.java:18)\n\tat ✽.the user is on the login page(file:///Users/hamdulla/Desktop/hamdulla/EU4CucumberSelenium/src/test/resources/features/Contacts.feature:4)\n",
+              "duration": 8429000,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 49000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "the user enters the driver information",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefs.the_user_enters_the_driver_information()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "the user navigates to \"Customers\" \"Contacts\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "default page number should be 1",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-09T22:46:08.020Z",
+        "before": [
+          {
+            "result": {
+              "duration": 154000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "login as a given user",
+        "description": "",
+        "id": "contacts-page;login-as-a-given-user",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\n\tat com.vytrack.utilities.ConfigurationReader.get(ConfigurationReader.java:29)\n\tat com.vytrack.utilities.Driver.get(Driver.java:26)\n\tat com.vytrack.step_definitions.Hooks.tearDown(Hooks.java:19)\n",
+              "duration": 313000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\n\tat com.vytrack.utilities.ConfigurationReader.get(ConfigurationReader.java:29)\n\tat com.vytrack.step_definitions.LoginStepDefs.the_user_is_on_the_login_page(LoginStepDefs.java:18)\n\tat ✽.the user is on the login page(file:///Users/hamdulla/Desktop/hamdulla/EU4CucumberSelenium/src/test/resources/features/Contacts.feature:40)\n",
+              "duration": 378000,
+              "status": "failed"
+            },
+            "line": 40,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 41,
+            "name": "the user logs in using following credentials",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "user10"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "UserUser123"
+                ]
+              },
+              {
+                "cells": [
+                  "firstname",
+                  "Brenden"
+                ]
+              },
+              {
+                "cells": [
+                  "lastname",
+                  "Schneider"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35000,
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "the user should be able to login",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefs.the_user_should_be_able_to_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Contacts page",
+    "description": "",
+    "id": "contacts-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Contacts.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-09T22:46:08.068Z",
+        "before": [
+          {
+            "result": {
+              "duration": 146000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login as a driver",
+        "description": "",
+        "id": "users-should-be-able-to-login;login-as-a-driver",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\n\tat com.vytrack.utilities.ConfigurationReader.get(ConfigurationReader.java:29)\n\tat com.vytrack.utilities.Driver.get(Driver.java:26)\n\tat com.vytrack.step_definitions.Hooks.tearDown(Hooks.java:19)\n",
+              "duration": 358000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\n\tat com.vytrack.utilities.ConfigurationReader.get(ConfigurationReader.java:29)\n\tat com.vytrack.step_definitions.LoginStepDefs.the_user_is_on_the_login_page(LoginStepDefs.java:18)\n\tat ✽.the user is on the login page(file:///Users/hamdulla/Desktop/hamdulla/EU4CucumberSelenium/src/test/resources/features/login.feature:5)\n",
+              "duration": 447000,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 698000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "the user enters the driver information",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefs.the_user_enters_the_driver_information()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "the user should be able to login",
+            "match": {
+              "location": "com.vytrack.step_definitions.LoginStepDefs.the_user_should_be_able_to_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@navigate"
+          },
+          {
+            "name": "@driver"
+          },
+          {
+            "name": "@VYT-123"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Users should be able to login",
+    "description": "",
+    "id": "users-should-be-able-to-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": [
+      {
+        "name": "@navigate",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
