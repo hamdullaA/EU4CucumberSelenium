@@ -1,4 +1,15 @@
+/Users/hamdulla/Desktop/hamdulla/EU4CucumberSelenium/src/test/java/com/vytrack/pages/ContactsPage.java
 /Users/hamdulla/Desktop/hamdulla/EU4CucumberSelenium/src/test/java/com/vytrack/runners/CukesRunners.java
+/Users/hamdulla/Desktop/hamdulla/EU4CucumberSelenium/src/test/java/com/vytrack/utilities/ConfigurationReader.java
 /Users/hamdulla/Desktop/hamdulla/EU4CucumberSelenium/src/test/java/com/vytrack/step_definitions/LoginStepDefs.java
 /Users/hamdulla/Desktop/hamdulla/EU4CucumberSelenium/src/test/java/com/vytrack/step_definitions/NavigationMenuStepDefs.java
+/Users/hamdulla/Desktop/hamdulla/EU4CucumberSelenium/src/test/java/com/vytrack/pages/DashboardPage.java
+/Users/hamdulla/Desktop/hamdulla/EU4CucumberSelenium/src/test/java/com/vytrack/pages/BasePage.java
+/Users/hamdulla/Desktop/hamdulla/EU4CucumberSelenium/src/test/java/com/vytrack/pages/CreateCalendarEventsPage.java
+/Users/hamdulla/Desktop/hamdulla/EU4CucumberSelenium/src/test/java/com/vytrack/step_definitions/ContactsStepDefs.java
+/Users/hamdulla/Desktop/hamdulla/EU4CucumberSelenium/src/test/java/com/vytrack/pages/LoginPage.java
+/Users/hamdulla/Desktop/hamdulla/EU4CucumberSelenium/src/test/java/com/vytrack/pages/ContactInfoPage.java
+/Users/hamdulla/Desktop/hamdulla/EU4CucumberSelenium/src/test/java/com/vytrack/pages/CalendarEventsPage.java
+/Users/hamdulla/Desktop/hamdulla/EU4CucumberSelenium/src/test/java/com/vytrack/utilities/BrowserUtils.java
+/Users/hamdulla/Desktop/hamdulla/EU4CucumberSelenium/src/test/java/com/vytrack/utilities/Driver.java
 /Users/hamdulla/Desktop/hamdulla/EU4CucumberSelenium/src/test/java/com/vytrack/step_definitions/Hooks.java
