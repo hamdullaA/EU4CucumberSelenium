@@ -13,7 +13,7 @@ Feature: Contacts page
     When the user navigates to "Activities" "Calendar Events"
     Then the title contains "Calendar"
 
-@wip
+@wipw
   Scenario: Menu Options Driver
     Given the user logged in as "driver"
     Then the user should see following options

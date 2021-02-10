@@ -3,12 +3,12 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-02-10T19:43:37.784Z",
+        "start_timestamp": "2021-02-10T20:07:50.630Z",
         "before": [
           {
             "result": {
               "error_message": "java.lang.NullPointerException\n\tat com.vytrack.utilities.ConfigurationReader.get(ConfigurationReader.java:29)\n\tat com.vytrack.utilities.Driver.get(Driver.java:26)\n\tat com.vytrack.step_definitions.Hooks.setUp(Hooks.java:18)\n",
-              "duration": 10320000,
+              "duration": 8616000,
               "status": "failed"
             },
             "match": {
@@ -24,7 +24,7 @@
           {
             "result": {
               "error_message": "java.lang.NullPointerException\n\tat com.vytrack.utilities.ConfigurationReader.get(ConfigurationReader.java:29)\n\tat com.vytrack.utilities.Driver.get(Driver.java:26)\n\tat com.vytrack.step_definitions.Hooks.tearDown(Hooks.java:23)\n",
-              "duration": 1667000,
+              "duration": 1368000,
               "status": "failed"
             },
             "match": {
@@ -37,7 +37,7 @@
         "steps": [
           {
             "result": {
-              "duration": 572000,
+              "duration": 485000,
               "status": "skipped"
             },
             "line": 18,
@@ -55,7 +55,7 @@
           },
           {
             "result": {
-              "duration": 164000,
+              "duration": 255000,
               "status": "skipped"
             },
             "line": 19,
@@ -90,109 +90,7 @@
         ],
         "tags": [
           {
-            "name": "@wip"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-02-10T19:43:37.979Z",
-        "before": [
-          {
-            "result": {
-              "error_message": "java.lang.NullPointerException\n\tat com.vytrack.utilities.ConfigurationReader.get(ConfigurationReader.java:29)\n\tat com.vytrack.utilities.Driver.get(Driver.java:26)\n\tat com.vytrack.step_definitions.Hooks.setUp(Hooks.java:18)\n",
-              "duration": 457000,
-              "status": "failed"
-            },
-            "match": {
-              "location": "com.vytrack.step_definitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 39,
-        "name": "login as a given user",
-        "description": "",
-        "id": "contacts-page;login-as-a-given-user",
-        "after": [
-          {
-            "result": {
-              "error_message": "java.lang.NullPointerException\n\tat com.vytrack.utilities.ConfigurationReader.get(ConfigurationReader.java:29)\n\tat com.vytrack.utilities.Driver.get(Driver.java:26)\n\tat com.vytrack.step_definitions.Hooks.tearDown(Hooks.java:23)\n",
-              "duration": 308000,
-              "status": "failed"
-            },
-            "match": {
-              "location": "com.vytrack.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 36000,
-              "status": "skipped"
-            },
-            "line": 40,
-            "name": "the user is on the login page",
-            "match": {
-              "location": "com.vytrack.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 68000,
-              "status": "skipped"
-            },
-            "line": 41,
-            "name": "the user logs in using following credentials",
-            "match": {
-              "location": "com.vytrack.step_definitions.ContactsStepDefs.the_user_logs_in_using_following_credentials(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "username",
-                  "user10"
-                ]
-              },
-              {
-                "cells": [
-                  "password",
-                  "UserUser123"
-                ]
-              },
-              {
-                "cells": [
-                  "firstname",
-                  "Brenden"
-                ]
-              },
-              {
-                "cells": [
-                  "lastname",
-                  "Schneider"
-                ]
-              }
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 23000,
-              "status": "skipped"
-            },
-            "line": 46,
-            "name": "the user should be able to login",
-            "match": {
-              "location": "com.vytrack.step_definitions.LoginStepDefs.the_user_should_be_able_to_login()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@wip"
+            "name": "@wipw"
           }
         ]
       }
