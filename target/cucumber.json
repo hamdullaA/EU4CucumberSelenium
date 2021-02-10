@@ -3,12 +3,13 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-02-10T19:30:21.694Z",
+        "start_timestamp": "2021-02-10T19:43:37.784Z",
         "before": [
           {
             "result": {
-              "duration": 1388000,
-              "status": "passed"
+              "error_message": "java.lang.NullPointerException\n\tat com.vytrack.utilities.ConfigurationReader.get(ConfigurationReader.java:29)\n\tat com.vytrack.utilities.Driver.get(Driver.java:26)\n\tat com.vytrack.step_definitions.Hooks.setUp(Hooks.java:18)\n",
+              "duration": 10320000,
+              "status": "failed"
             },
             "match": {
               "location": "com.vytrack.step_definitions.Hooks.setUp()"
@@ -22,8 +23,8 @@
         "after": [
           {
             "result": {
-              "error_message": "java.lang.NullPointerException\n\tat com.vytrack.utilities.ConfigurationReader.get(ConfigurationReader.java:29)\n\tat com.vytrack.utilities.Driver.get(Driver.java:26)\n\tat com.vytrack.step_definitions.Hooks.tearDown(Hooks.java:19)\n",
-              "duration": 1655000,
+              "error_message": "java.lang.NullPointerException\n\tat com.vytrack.utilities.ConfigurationReader.get(ConfigurationReader.java:29)\n\tat com.vytrack.utilities.Driver.get(Driver.java:26)\n\tat com.vytrack.step_definitions.Hooks.tearDown(Hooks.java:23)\n",
+              "duration": 1667000,
               "status": "failed"
             },
             "match": {
@@ -36,9 +37,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "java.lang.NullPointerException\n\tat com.vytrack.utilities.ConfigurationReader.get(ConfigurationReader.java:29)\n\tat com.vytrack.utilities.Driver.get(Driver.java:26)\n\tat com.vytrack.step_definitions.ContactsStepDefs.the_user_logged_in_as(ContactsStepDefs.java:23)\n\tat ✽.the user logged in as \"driver\"(file:///Users/hamdulla/Desktop/hamdulla/EU4CucumberSelenium/src/test/resources/features/Contacts.feature:18)\n",
-              "duration": 7028000,
-              "status": "failed"
+              "duration": 572000,
+              "status": "skipped"
             },
             "line": 18,
             "name": "the user logged in as \"driver\"",
@@ -55,7 +55,7 @@
           },
           {
             "result": {
-              "duration": 188000,
+              "duration": 164000,
               "status": "skipped"
             },
             "line": 19,
@@ -95,12 +95,13 @@
         ]
       },
       {
-        "start_timestamp": "2021-02-10T19:30:21.848Z",
+        "start_timestamp": "2021-02-10T19:43:37.979Z",
         "before": [
           {
             "result": {
-              "duration": 159000,
-              "status": "passed"
+              "error_message": "java.lang.NullPointerException\n\tat com.vytrack.utilities.ConfigurationReader.get(ConfigurationReader.java:29)\n\tat com.vytrack.utilities.Driver.get(Driver.java:26)\n\tat com.vytrack.step_definitions.Hooks.setUp(Hooks.java:18)\n",
+              "duration": 457000,
+              "status": "failed"
             },
             "match": {
               "location": "com.vytrack.step_definitions.Hooks.setUp()"
@@ -114,8 +115,8 @@
         "after": [
           {
             "result": {
-              "error_message": "java.lang.NullPointerException\n\tat com.vytrack.utilities.ConfigurationReader.get(ConfigurationReader.java:29)\n\tat com.vytrack.utilities.Driver.get(Driver.java:26)\n\tat com.vytrack.step_definitions.Hooks.tearDown(Hooks.java:19)\n",
-              "duration": 338000,
+              "error_message": "java.lang.NullPointerException\n\tat com.vytrack.utilities.ConfigurationReader.get(ConfigurationReader.java:29)\n\tat com.vytrack.utilities.Driver.get(Driver.java:26)\n\tat com.vytrack.step_definitions.Hooks.tearDown(Hooks.java:23)\n",
+              "duration": 308000,
               "status": "failed"
             },
             "match": {
@@ -128,9 +129,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "java.lang.NullPointerException\n\tat com.vytrack.utilities.ConfigurationReader.get(ConfigurationReader.java:29)\n\tat com.vytrack.step_definitions.LoginStepDefs.the_user_is_on_the_login_page(LoginStepDefs.java:18)\n\tat ✽.the user is on the login page(file:///Users/hamdulla/Desktop/hamdulla/EU4CucumberSelenium/src/test/resources/features/Contacts.feature:40)\n",
-              "duration": 417000,
-              "status": "failed"
+              "duration": 36000,
+              "status": "skipped"
             },
             "line": 40,
             "name": "the user is on the login page",
@@ -141,7 +141,7 @@
           },
           {
             "result": {
-              "duration": 78000,
+              "duration": 68000,
               "status": "skipped"
             },
             "line": 41,
@@ -179,7 +179,7 @@
           },
           {
             "result": {
-              "duration": 27000,
+              "duration": 23000,
               "status": "skipped"
             },
             "line": 46,

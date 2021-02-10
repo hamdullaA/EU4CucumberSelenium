@@ -1,5 +1,5 @@
 Feature: Contacts page
-@wip
+
   Scenario:Default page number
     Given the user is on the login page
     And the user enters the driver information
@@ -13,7 +13,7 @@ Feature: Contacts page
     When the user navigates to "Activities" "Calendar Events"
     Then the title contains "Calendar"
 
-
+@wip
   Scenario: Menu Options Driver
     Given the user logged in as "driver"
     Then the user should see following options
