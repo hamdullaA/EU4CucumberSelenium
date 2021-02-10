@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-02-09T22:46:07.786Z",
+        "start_timestamp": "2021-02-10T19:30:21.694Z",
         "before": [
           {
             "result": {
-              "duration": 1739000,
+              "duration": 1388000,
               "status": "passed"
             },
             "match": {
@@ -15,15 +15,15 @@
             }
           }
         ],
-        "line": 3,
-        "name": "Default page number",
+        "line": 17,
+        "name": "Menu Options Driver",
         "description": "",
-        "id": "contacts-page;default-page-number",
+        "id": "contacts-page;menu-options-driver",
         "after": [
           {
             "result": {
               "error_message": "java.lang.NullPointerException\n\tat com.vytrack.utilities.ConfigurationReader.get(ConfigurationReader.java:29)\n\tat com.vytrack.utilities.Driver.get(Driver.java:26)\n\tat com.vytrack.step_definitions.Hooks.tearDown(Hooks.java:19)\n",
-              "duration": 4630000,
+              "duration": 1655000,
               "status": "failed"
             },
             "match": {
@@ -36,45 +36,55 @@
         "steps": [
           {
             "result": {
-              "error_message": "java.lang.NullPointerException\n\tat com.vytrack.utilities.ConfigurationReader.get(ConfigurationReader.java:29)\n\tat com.vytrack.step_definitions.LoginStepDefs.the_user_is_on_the_login_page(LoginStepDefs.java:18)\n\tat ✽.the user is on the login page(file:///Users/hamdulla/Desktop/hamdulla/EU4CucumberSelenium/src/test/resources/features/Contacts.feature:4)\n",
-              "duration": 8429000,
+              "error_message": "java.lang.NullPointerException\n\tat com.vytrack.utilities.ConfigurationReader.get(ConfigurationReader.java:29)\n\tat com.vytrack.utilities.Driver.get(Driver.java:26)\n\tat com.vytrack.step_definitions.ContactsStepDefs.the_user_logged_in_as(ContactsStepDefs.java:23)\n\tat ✽.the user logged in as \"driver\"(file:///Users/hamdulla/Desktop/hamdulla/EU4CucumberSelenium/src/test/resources/features/Contacts.feature:18)\n",
+              "duration": 7028000,
               "status": "failed"
             },
-            "line": 4,
-            "name": "the user is on the login page",
+            "line": 18,
+            "name": "the user logged in as \"driver\"",
             "match": {
-              "location": "com.vytrack.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
+              "arguments": [
+                {
+                  "val": "\"driver\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.vytrack.step_definitions.ContactsStepDefs.the_user_logged_in_as(java.lang.String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 49000,
+              "duration": 188000,
               "status": "skipped"
             },
-            "line": 5,
-            "name": "the user enters the driver information",
+            "line": 19,
+            "name": "the user should see following options",
             "match": {
-              "location": "com.vytrack.step_definitions.LoginStepDefs.the_user_enters_the_driver_information()"
+              "location": "com.vytrack.step_definitions.ContactsStepDefs.the_user_should_see_following_options(java.util.List\u003cjava.lang.String\u003e)"
             },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 6,
-            "name": "the user navigates to \"Customers\" \"Contacts\"",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 7,
-            "name": "default page number should be 1",
-            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "Fleet"
+                ]
+              },
+              {
+                "cells": [
+                  "Customers"
+                ]
+              },
+              {
+                "cells": [
+                  "Activities"
+                ]
+              },
+              {
+                "cells": [
+                  "System"
+                ]
+              }
+            ],
             "keyword": "Then "
           }
         ],
@@ -85,11 +95,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-02-09T22:46:08.020Z",
+        "start_timestamp": "2021-02-10T19:30:21.848Z",
         "before": [
           {
             "result": {
-              "duration": 154000,
+              "duration": 159000,
               "status": "passed"
             },
             "match": {
@@ -105,7 +115,7 @@
           {
             "result": {
               "error_message": "java.lang.NullPointerException\n\tat com.vytrack.utilities.ConfigurationReader.get(ConfigurationReader.java:29)\n\tat com.vytrack.utilities.Driver.get(Driver.java:26)\n\tat com.vytrack.step_definitions.Hooks.tearDown(Hooks.java:19)\n",
-              "duration": 313000,
+              "duration": 338000,
               "status": "failed"
             },
             "match": {
@@ -119,7 +129,7 @@
           {
             "result": {
               "error_message": "java.lang.NullPointerException\n\tat com.vytrack.utilities.ConfigurationReader.get(ConfigurationReader.java:29)\n\tat com.vytrack.step_definitions.LoginStepDefs.the_user_is_on_the_login_page(LoginStepDefs.java:18)\n\tat ✽.the user is on the login page(file:///Users/hamdulla/Desktop/hamdulla/EU4CucumberSelenium/src/test/resources/features/Contacts.feature:40)\n",
-              "duration": 378000,
+              "duration": 417000,
               "status": "failed"
             },
             "line": 40,
@@ -131,11 +141,14 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 78000,
+              "status": "skipped"
             },
             "line": 41,
             "name": "the user logs in using following credentials",
-            "match": {},
+            "match": {
+              "location": "com.vytrack.step_definitions.ContactsStepDefs.the_user_logs_in_using_following_credentials(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
             "rows": [
               {
                 "cells": [
@@ -166,7 +179,7 @@
           },
           {
             "result": {
-              "duration": 35000,
+              "duration": 27000,
               "status": "skipped"
             },
             "line": 46,
@@ -190,110 +203,5 @@
     "keyword": "Feature",
     "uri": "file:src/test/resources/features/Contacts.feature",
     "tags": []
-  },
-  {
-    "line": 2,
-    "elements": [
-      {
-        "start_timestamp": "2021-02-09T22:46:08.068Z",
-        "before": [
-          {
-            "result": {
-              "duration": 146000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.vytrack.step_definitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 4,
-        "name": "Login as a driver",
-        "description": "",
-        "id": "users-should-be-able-to-login;login-as-a-driver",
-        "after": [
-          {
-            "result": {
-              "error_message": "java.lang.NullPointerException\n\tat com.vytrack.utilities.ConfigurationReader.get(ConfigurationReader.java:29)\n\tat com.vytrack.utilities.Driver.get(Driver.java:26)\n\tat com.vytrack.step_definitions.Hooks.tearDown(Hooks.java:19)\n",
-              "duration": 358000,
-              "status": "failed"
-            },
-            "match": {
-              "location": "com.vytrack.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "error_message": "java.lang.NullPointerException\n\tat com.vytrack.utilities.ConfigurationReader.get(ConfigurationReader.java:29)\n\tat com.vytrack.step_definitions.LoginStepDefs.the_user_is_on_the_login_page(LoginStepDefs.java:18)\n\tat ✽.the user is on the login page(file:///Users/hamdulla/Desktop/hamdulla/EU4CucumberSelenium/src/test/resources/features/login.feature:5)\n",
-              "duration": 447000,
-              "status": "failed"
-            },
-            "line": 5,
-            "name": "the user is on the login page",
-            "match": {
-              "location": "com.vytrack.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 698000,
-              "status": "skipped"
-            },
-            "line": 6,
-            "name": "the user enters the driver information",
-            "match": {
-              "location": "com.vytrack.step_definitions.LoginStepDefs.the_user_enters_the_driver_information()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 40000,
-              "status": "skipped"
-            },
-            "line": 7,
-            "name": "the user should be able to login",
-            "match": {
-              "location": "com.vytrack.step_definitions.LoginStepDefs.the_user_should_be_able_to_login()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@navigate"
-          },
-          {
-            "name": "@driver"
-          },
-          {
-            "name": "@VYT-123"
-          },
-          {
-            "name": "@wip"
-          }
-        ]
-      }
-    ],
-    "name": "Users should be able to login",
-    "description": "",
-    "id": "users-should-be-able-to-login",
-    "keyword": "Feature",
-    "uri": "file:src/test/resources/features/login.feature",
-    "tags": [
-      {
-        "name": "@navigate",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 1
-        }
-      }
-    ]
   }
 ]
